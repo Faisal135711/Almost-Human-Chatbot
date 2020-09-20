@@ -10,7 +10,7 @@ from model import NeuralNet
 
 intents = []
 with open('intents.json', 'r') as f:
-  global intents
+#   global intents
   intents = json.load(f)
 
 # print(intents)

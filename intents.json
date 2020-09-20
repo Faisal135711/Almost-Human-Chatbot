@@ -5,7 +5,6 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
         "Good day"
@@ -19,11 +18,13 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "have a nice day"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "good bye",
+        "see you soon"
       ]
     },
     {
@@ -34,9 +35,11 @@
     {
       "tag": "items",
       "patterns": [
+        "Do you have tea or coffe ?",
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "tell me what you have"
       ],
       "responses": [
         "We sell coffee and tea",
@@ -44,8 +47,44 @@
       ]
     },
     {
+      "tag": "unavailable_items",
+      "patterns": [
+        "Do you have biscuit or chocklate ?",
+        "Do you have french fry or soft drinks?",
+        "Do you have chips or soda or beer?",
+        "Do you sell cake, milk",
+        "tell me if you have anythin else",
+        "biscuit",
+        "cake", "chips", "soft drinks", "chocolate"
+      ],
+      "responses": [
+        "Sorry, We sell only coffee and tea",
+        "Sorry, We have only coffee and tea"
+      ]
+    },
+    {
+      "tag": "slang",
+      "patterns": [
+        "You are an idiot, stupid, unsmart, moron ?",
+        "Hey, Hi idiot, stupid, unsmart, fool?",
+        "hi idiot",
+        "hello stupid",
+        "moron",
+        "fool",
+        "tell me you idiot"
+      ],
+      "responses": [
+        "Please ask decently",
+        "You are a respectful citizen, please behave yourself",
+        "Be polite"
+      ]
+    },
+    
+    {
       "tag": "payments",
       "patterns": [
+        "tell me shipping",
+        "payment",
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
@@ -78,6 +117,70 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "location of the cafe",
+        "name of the cafeteria!",
+        "tell me about your shop?",
+        "What is the cafe located",
+        "cafe exact location"
+      ],
+      "responses": [
+        "Our cafe name is ABC, it is located in XYZ road, Gulshan."
+      ]
+    },
+    {
+      "tag": "how are you",
+      "patterns": [
+        "How are you ?",
+        "hi, What's up!",
+        "hey How you doing",
+        "hello how are you",
+        "hi how are you",
+        "hey how are you ?",
+        "hey how you doing"
+        
+      ],
+      "responses": [
+        "I'm fine.Thank you. What about you?",
+        "I'm doing well, How are you?"
+      ]
+    },
+    {
+      "tag": "i am a machine",
+      "patterns": [
+        "your age ?",
+        "What is your name?",
+        "Are you married",
+        "tell me your age",
+        "your marital status",
+        "you are a male or female ?",
+        "your gender ?",
+		"How old are you?",
+		"Will you marry me?"
+      ],
+      "responses": [
+        "Sorry, I am a machine.",
+        "I'm a machine, not a human being"
+      ]
+    },
+    {
+      "tag": "offer",
+      "patterns": [
+        "Is there any offer going?",
+        "Any discount?",
+        "Do you offer any discount",
+        "do you have any offer going on?",
+        "any available offer?",
+        "discounts",
+        "offers"
+      ],
+      "responses": [
+        "Sorry, currently there is no offer available.",
+        "Yes, we have some limited offer/discount going on.Please call on 015XXXXXXXX"
       ]
     }
   ]
